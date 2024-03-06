@@ -14,7 +14,7 @@ function LoginPage() {
     // Mock login logic - replace with your actual login logic
     if (username === 'admin' && password === 'password') {
       // Redirect to the home page after successful login
-      navigate('/'); // Redirect to the home page
+      navigate('/home'); // Redirect to the home page
     } else {
       alert('Invalid username or password');
     }
