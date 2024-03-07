@@ -1,0 +1,23 @@
+.dashboard {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .dashboard table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  .dashboard th, .dashboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .dashboard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../../firebaseConfig'; // Replace with your Firebase configuration
+import { db } from '../../firebaseConfig';
+import './Dashboard.css';
+import { useNavigate } from 'react-router-dom'; // Import for navigation
 
 const Dashboard = () => {
-  const [subjects, setSubjects] = useState([]);
+    const [subjects, setSubjects] = useState([]);
+    const navigate = useNavigate(); // Access the navigation function
+  
 
   useEffect(() => {
     const fetchSubjects = async () => {
@@ -15,11 +19,15 @@ const Dashboard = () => {
     fetchSubjects();
   }, []);
 
+  const handleSubjectClick = (subject) => {
+    navigate('/apl', { state: subject }); // Pass subject object as state
+  };
+
   return (
-    <div>
+    <div className="dashboard">
       <h1>Dashboard</h1>
       <table>
-        <thead>
+      <thead>
           <tr>
             <th>Subject Code</th>
             <th>Subject Name</th>
@@ -30,8 +38,12 @@ const Dashboard = () => {
           {subjects.map((subject) => (
             <tr key={subject.subjectCode}>
               <td>{subject.subjectCode}</td>
-              <td>{subject.subjectName}</td>
+              <td onClick={() => handleSubjectClick(subject)}>
+                {subject.subjectName}
+              </td>
               <td>{subject.selectedSemester}</td>
+              
+              {/* ... */}
             </tr>
           ))}
         </tbody>

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import StudyMaterial from './Pages/Studymaterials/StudyMaterials'
 import Json from './Pages/JsonUpload/Json';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import APL from './Pages/APL/APL';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/studymaterial" element={<StudyMaterial/> } />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/apl" element={<APL />} />
 
           <Route path="/test" element={<Json />} /> 
           <Route path="/home" element={<Home />} />
