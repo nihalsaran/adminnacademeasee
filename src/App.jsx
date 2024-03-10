@@ -7,26 +7,31 @@ import StudyMaterial from './Pages/Studymaterials/StudyMaterials'
 import Json from './Pages/JsonUpload/Json';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import APL from './Pages/APL/APL';
+import SignUp from './Pages/SignUp/SignUp';
 
 
 
 function App() {
   return (
     <div>
-    
+
      
       <Router>
       <Navbar />
       
         <Routes>
-          <Route path="/studymaterial" element={<StudyMaterial/> } />
-          <Route path="/dashboard" element={<Dashboard />} />
+
+        <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/apl" element={<APL />} />
+          <Route path="/signup" element={<SignUp />} />
 
-          <Route path="/test" element={<Json />} /> 
+          
+
+          <Route path="/jsonupload" element={<Json />} /> 
           <Route path="/home" element={<Home />} />
-
-          <Route path="/" element={<LoginPage />} />
+            <Route path="/" element={<LoginPage />} />
+          
+        
         </Routes>
       </Router>
     </div>
@@ -34,3 +39,8 @@ function App() {
 }
 
 export default App;
+
+/*
+<Route path="/studymaterial" element={<StudyMaterial/> } />
+          
+*/

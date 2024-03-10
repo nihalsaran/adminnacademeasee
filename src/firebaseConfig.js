@@ -4,6 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from 'firebase/firestore';
 
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyCpKeTpCBYMhY6K7XMIl6_wxhn-6ysM_ag",
   authDomain: "academease-7b917.firebaseapp.com",
@@ -18,6 +19,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
+
+
+
+
 
 export { db };
 

@@ -1,0 +1,347 @@
+[
+    {
+      "subjectName": "APPLIED CHEMISTRY",  
+      "courseType": "Fulltime",
+      "selectedFaculty": "Engineering",        
+      "selectedSubfaculty": "Fulltime-Electrical",  
+      "selectedSemester": "Sem1",             
+      "selectedSubbranch": "Select a Subbranch",
+     
+      "subjectCode": "CHM181",
+      "credits": 3,
+      "ctPapers": "https://www.google",
+      "notes": "https://drive.google.com/file/d/1NxQw7BTfMfSG-tPiYgW33bfk1rirPvuO/view?usp=drive_link",
+      "endSemPapers": "https://www.google.com",
+      "questionBank": "https://www.google.com",
+      "totalSubjects": 20
+
+      
+     
+    },
+    {
+        "subjectName": "APPLIED CHEMISTRY LAB",  
+        "courseType": "Fulltime",
+        "selectedFaculty": "Engineering",        
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "CHM182",
+        "credits": 1,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+        
+       
+      },
+      {
+        "subjectName": "APPLIED PHYSICS I",  
+        "selectedFaculty": "Engineering",
+        "courseType": "Fulltime",        
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "PHM181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+        
+       
+      },
+      {
+        "subjectName": "APPLIED PHYSICS LAB",  
+        "selectedFaculty": "Engineering",      
+        "courseType": "Fulltime",  
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "PHM182",
+        "credits": 1,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+        
+       
+      },
+      {
+        "subjectName": "GRAPHIC SCIENCE",  
+        "selectedFaculty": "Engineering", 
+        "courseType": "Fulltime",       
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "MEM101",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "ENGINEERING DRAWING I",  
+        "selectedFaculty": "Engineering",     
+        "courseType": "Fulltime",   
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "MEM102",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "WORKSHOP PRATICE I",  
+        "selectedFaculty": "Engineering",       
+        "courseType": "Fulltime", 
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "MEM104",
+        "credits": 1.5,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "MANUFACTURING PROCESSES I",  
+        "selectedFaculty": "Engineering",      
+        "courseType": "Fulltime",  
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "MEM103",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "ENGINEERING MATHEMATICS I",  
+        "selectedFaculty": "Engineering",    
+        "courseType": "Fulltime",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "MAM181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "SC.METH., G.K. & CURRENT AFFAIRS I",  
+        "selectedFaculty": "Engineering",   
+        "courseType": "Fulltime",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "GKC181",
+        "credits": 1,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "BUSINESS ORGANISATION",  
+        "selectedFaculty": "Engineering",    
+        "courseType": "Half",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",      
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "BBH101",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "BASIC MANAGEMENT",  
+        "selectedFaculty": "Engineering", 
+        "courseType": "Half",         
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "BBH102",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "ENVIRONMENTAL SCIENCES",  
+        "selectedFaculty": "Engineering",        
+        "courseType": "Half",
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "BOH181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "THEORY OF DESIGN",  
+        "selectedFaculty": "Engineering",        
+        "courseType": "Half",
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "CEH181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "BASIC STATISTICS",  
+        "selectedFaculty": "Engineering",    
+        "courseType": "Half",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "DBD101",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "ESSENTIAL OF ECONOMICS",  
+        "selectedFaculty": "Engineering",        
+        "courseType": "Half",
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "ECH181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "ENGLISH I ",  
+        "selectedFaculty": "Engineering",  
+        "courseType": "Half",      
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "ENH181",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "COMMUNICATION TECHNIQUE HINDI I",  
+        "selectedFaculty": "Engineering",    
+        "courseType": "Half",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "OMH101",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "APPLIED PSYCHOLOGY ",  
+        "selectedFaculty": "Engineering",    
+        "courseType": "Half",    
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "PYH102",
+        "credits": 3,
+        "ctPapers": "https://www.google.com",
+        "notes": "https://www.google.com",
+        "endSemPapers": "https://www.google.com",
+        "questionBank": "https://www.google.com"
+  
+       
+      },
+      {
+        "subjectName": "GADYA, PADYA, VYAKARAN & ANUVAAD",  
+        "selectedFaculty": "Engineering",     
+        "courseType": "Half",   
+        "selectedSubfaculty": "Fulltime-Electrical",  
+        "selectedSemester": "Sem1",             
+        "selectedSubbranch": "Select a Subbranch",
+       
+        "subjectCode": "STH102",
+        "credits": 3,
+         "ctPapers": "https://www.google.com",
+      "notes": "https://www.google.com",
+      "endSemPapers": "https://www.google.com",
+      "questionBank": "https://www.google.com"
+
+       
+      }
+  ]
+  
