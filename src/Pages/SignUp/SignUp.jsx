@@ -4,6 +4,7 @@ import { collection, addDoc } from "firebase/firestore";
 import { useNavigate } from 'react-router-dom';
 import { getFirestore } from "firebase/firestore";
 import './SignUp.css';
+import Navbar from '../../components/Navbar/Navbar';
 
 const auth = getAuth();
 
@@ -49,6 +50,8 @@ const SignUp = () => {
   };
 
   return (
+    <div className="signup-container1">
+      <Navbar />
     <div className="signup-container">
       <h2>Sign Up</h2>
       <form onSubmit={handleSignUp}>
@@ -80,9 +83,10 @@ const SignUp = () => {
             <option value="">Select Role</option>
             <option value="Class Representative">Class Representative</option>
             <option value="Admin">Admin</option>
+            <option value="SuperUser">SuperUser</option>
           </select>
         </div>
-        {selectedRole && (
+        {selectedRole === 'Class Representative' && (
           <>
             <div>
               <label>Faculty:</label>
@@ -191,6 +195,7 @@ const SignUp = () => {
         <button type="submit">Sign Up</button>
       </form>
       {error && <p className="error">{error}</p>}
+    </div>
     </div>
   );
 };

@@ -2,13 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import LoginPage from './Pages/Login/LoginPage'
-import Navbar from './components/Navbar/Navbar';
+
 import StudyMaterial from './Pages/Studymaterials/StudyMaterials'
 import Json from './Pages/JsonUpload/Json';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import APL from './Pages/APL/APL';
 import SignUp from './Pages/SignUp/SignUp';
-
 
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
 
      
       <Router>
-      <Navbar />
+      
       
         <Routes>
 

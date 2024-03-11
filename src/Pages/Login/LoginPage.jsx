@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import './LoginPage.css'; // Import CSS file
+import Navbar from './../../components/Navbar/Navbar';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -27,7 +28,11 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="container1">
+      <Navbar />
     <div className="container">
+       
+     
       <h2>Login</h2>
       <div className="form-group">
         <label>Email:</label>
@@ -39,6 +44,7 @@ const LoginPage = () => {
       </div>
       {error && <div className="error">{error}</div>}
       <button onClick={handleLogin}>Login</button>
+    </div>
     </div>
   );
 };
